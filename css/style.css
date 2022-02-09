@@ -1,0 +1,231 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* main content section and placement */
+.main-section {
+  background-color: #fff;
+  margin: 40px auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.right-part {
+  padding: 100px 90px;
+}
+
+/* about me section */
+.about-me {
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.about-me-prof {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.about-me-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.main-sec-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+/* My projects section */
+.my-projects {
+  width: 485px;
+  margin-bottom: 50px;
+}
+
+.my-projects-list {
+  padding: 18px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* https://medium.com/@inomdzhon/dot-leaders-%D0%B8%D0%BB%D0%B8-%D1%82%D0%BE%D1%87%D0%BA%D0%B8-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D0%BC%D0%B8-%D0%BD%D0%B0-css-5c56d0eaabd0 */
+
+.projects-link {
+  padding-left: 5px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-decoration: none;
+}
+
+.projects-link:after {
+  content: '';
+  position: absolute;
+  bottom: 0.36em;
+  width: 100%;
+  border-bottom: 0.1em dotted;
+}
+
+.projects-link:hover {
+  text-decoration: underline;
+}
+
+.language-in-projects {
+  float: right;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.brackets {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Work experience section */
+
+.date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.main-content-list {
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.work-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.company-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffd800;
+  margin-bottom: 12px;
+}
+/* Education section */
+.education {
+  width: 336px;
+}
+
+.speciality {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+/* Sidebar section */
+.sidebar {
+  background-color: #3d2443;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contacts,
+.tech-skills {
+  margin: 50px 0px 0px 40px;
+}
+
+.soft-skills {
+  margin: 40px 0px 0px 40px;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 27px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+/* Contacts section */
+.contacts-letter {
+  /* font-style: normal; */
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.contacts-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9e91a1;
+  text-decoration: none;
+}
+
+/* Sidebar list section */
+.sidebar-list {
+  padding-left: 16px;
+}
+
+/* '>' combinator which allows to imply styles to all li in this class */
+.sidebar-list > li {
+  color: #edd500;
+}
+
+/* ' ' or space allows to imply styles to all span after li in the whole document */
+.siddebar-li-el {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
